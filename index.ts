@@ -1,0 +1,1 @@
+console.log("Hello! My firts ts code.")
