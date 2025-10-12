@@ -1,11 +1,35 @@
-* {
-    color: red;
-    font-weight:bold;
-    margin: 0px;
-    padding: 0px;
+header {
+    text-align: center;
+  
 }
 
-main div h2,
-main div p {
-    font-style: italic;
+body {
+    margin: 0;
+    padding: 0;
 }
+body.about main {
+    text-align: center;
+}
+
+nav {
+    background: #555;
+    width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 12px 0;
+  margin: 0;           /* centers horizontally */
+ display: flex;
+ justify-content: center;
+ gap: 24px;
+}
+
+nav li {
+    color: #fff;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+} 
