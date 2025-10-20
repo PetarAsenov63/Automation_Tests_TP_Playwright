@@ -21,9 +21,9 @@ console.log(sumNums(5, 10));
 // optional parameter
 function greeting(name: string, age?:number): string {
     if (age) {
-        console.log(`Hello, my name is ${name} and I am ${age} years old.`);
+        return `Hello, my name is ${name} and I am ${age} years old.`;
         }
-        console.log(`Hi, I am ${name}.`);
+        return `Hi, I am ${name}.`;
 };
 
 //default parameter
