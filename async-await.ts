@@ -58,7 +58,6 @@ async function getData(): Promise<void> {
     try {
     const response = await fetch("https://fakestoreapi.com/products/1");
     const data: Product = await response.json();
-    return data;
     } catch (error: unknown) {
         console.error(error);
     }
