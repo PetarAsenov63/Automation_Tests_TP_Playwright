@@ -31,3 +31,11 @@ function subtractNumbers(a: number, b: number = 5): number {
     return a - b;
 }  
 console.log(subtractNumbers(10));//
+
+//Function with union type parameter
+function displayId(id: number | string): string {
+    return `The ID is: ${id}`;
+}
+
+displayId("#10");
+displayId(10);

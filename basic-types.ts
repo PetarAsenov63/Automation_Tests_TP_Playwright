@@ -40,3 +40,11 @@ let isAnyNumEqualTo: boolean = numOne === 10 || numTwo === 5;
 
 // ternary operator 
 let isPositiveNum: string = numOne > 0 ? "The number is positive" : "The number is negative";
+
+// Union types
+let id: number | string;
+
+id = 10;
+id = "10";
+
+let result: number | boolean | null;
